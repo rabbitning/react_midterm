@@ -1,0 +1,26 @@
+.recommendList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1vw;
+    margin: 130px auto 0;
+}
+
+.articleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    transition: 0.2s;
+}
+
+.articleBox:hover {
+    background-color: var(--normal-hover-color);
+}
+
+.articleThumbnail {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 70%;
+}

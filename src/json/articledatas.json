@@ -1,6 +1,52 @@
 [
     {
         "id": "0",
+        "articleurl":"/",
+        "author": "ew",
+        "thumbnail": "images/black.png",
+        "articletitle": "Sample",
+        "summary": "This is an exsample article.",
+        "content":"sample bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla."
+    },
+    {
+        "id": "1",
+        "articleurl":"/",
+        "author": "ew",
+        "thumbnail": "images/sample.webp",
+        "articletitle": "Sample",
+        "summary": "This is an exsample article.",
+        "content":"sample bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla."
+    },
+    {
+        "id": "2",
+        "articleurl":"/",
+        "author": "ew",
+        "thumbnail": "images/sample.webp",
+        "articletitle": "Sample",
+        "summary": "This is an exsample article.",
+        "content":"sample bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla."
+    },
+    {
+        "id": "3",
+        "articleurl":"/",
+        "author": "ew",
+        "thumbnail": "images/sample.webp",
+        "articletitle": "Sample",
+        "summary": "This is an exsample article.",
+        "content":"sample bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla."
+    },
+    {
+        "id": "4",
+        "articleurl":"/",
+        "author": "ew",
+        "thumbnail": "images/sample.webp",
+        "articletitle": "Sample",
+        "summary": "This is an exsample article.",
+        "content":"sample bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla."
+    },
+    {
+        "id": "5",
+        "articleurl":"/",
         "author": "ew",
         "thumbnail": "images/sample.webp",
         "articletitle": "Sample",

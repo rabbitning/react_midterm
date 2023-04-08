@@ -3,6 +3,8 @@
     --main-hover-color: #92c3f1;
     --sub-color: #0a9f84;
     --sub-hover-color: #1cb498;
+    --normal-color: #ddd;
+    --normal-hover-color: #e9e8e8;
 }
 
 html {
@@ -19,8 +21,13 @@ html {
     color: inherit;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin: 0;
+    background-color: var(--normal-color);
 }
 
 .mainHover:hover {
@@ -29,4 +36,9 @@ body {
 
 .subHover:hover {
     background-color: var(--sub-hover-color);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
 }
