@@ -11,11 +11,11 @@
     {
         "id": "1",
         "articleurl":"/",
-        "author": "ew",
+        "author": "Ph. Theser Halson",
         "thumbnail": "images/sample.webp",
-        "articletitle": "Sample",
-        "summary": "This is an exsample article.",
-        "content":"sample bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla."
+        "articletitle": "Self-healing polymers",
+        "summary": "Self-healing polymers",
+        "content":"AbstractSelf-healing is the capability of a material to recover from physical damage. Both physical and chemical approaches have been used to construct self-healing polymers. These include diffusion and flow, shape-memory effects, heterogeneous self-healing systems, covalent-bond reformation and reshuffling, dynamics of supramolecular chemistry or combinations thereof. In this Review, we discuss the similarities and differences between approaches to achieve self-healing in synthetic polymers, where possible placing this discussion in the context of biological systems. In particular, we highlight the role of thermal transitions, network heterogeneities, localized chemical reactions enabling the reconstruction of damage and physical reshuffling. We also discuss energetic and length-scale considerations, as well as scientific and technological challenges and opportunities."
     },
     {
         "id": "2",
