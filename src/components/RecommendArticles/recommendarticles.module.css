@@ -8,19 +8,34 @@
 .articleBox {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     height: 350px;
     transition: 0.2s;
+    background-color: #fff;
 }
 
 .articleBox:hover {
     background-color: var(--normal-hover-color);
 }
 
+.articleThumbnailBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
 .articleThumbnail {
-    width: auto;
     max-width: 100%;
-    height: auto;
-    max-height: 70%;
+}
+
+.articletitle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
 }

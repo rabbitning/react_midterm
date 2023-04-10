@@ -8,7 +8,9 @@ export default function RecommendArticles() {
             <div className={styles.recommendList}>
                 {articledatas.map(articledata => (
                     <Link to={articledata.articleurl} key={articledata.id} className={styles.articleBox}>
-                        <img src={articledata.thumbnail} alt="" className={styles.articleThumbnail} />
+                        <div className={styles.articleThumbnailBox}>
+                            <img src={articledata.thumbnail} alt="" className={styles.articleThumbnail} />
+                        </div>
                         <div className={styles.articletitle}>{articledata.articletitle}</div>
                     </Link>
                 ))}
