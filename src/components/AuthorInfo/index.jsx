@@ -10,6 +10,7 @@ export default function AuthorInfo({ user }) {
                 <div className={styles.userInfo}>
                     <img src={user.profile} alt="" className={styles.userProfile} />
                     <div className={styles.userName}>{user.name}</div>
+                    <div>{user.email}</div>
                 </div>
                 <div className={styles.userArticleList}>
                     {userArticleList.map(article => (
@@ -19,7 +20,7 @@ export default function AuthorInfo({ user }) {
                             </div>
                             <div className={styles.articleBox}>
                                 <div className={styles.articleTitle}>{article.articletitle}</div>
-                                <div className={styles.articleContent}>{article.content}</div>
+                                <div className={styles.articleContent}>{article.contentNew[0].subcontent[0]}</div>
                             </div>
                         </Link>
                     ))}

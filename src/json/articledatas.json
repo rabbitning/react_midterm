@@ -50,12 +50,11 @@
         "summary": "Crows Are Self-Aware Just Like Humans, And They May Be as Smart as Gorillas",
         "contentNew": [
             {
-                "subtitle": [
+                "subtitle": "",
+                "subcontent": [
                     "In a 2020 study, crows performed a complex task that involved hundreds of firing sensory analytical neurons.",
                     "Crows can do jobs, share knowledge, and even ritualistically mourn their dead.",
-                    "Recent research suggests crow brains tightly pack neurons to help make them smart."
-                ],
-                "subcontent": [
+                    "Recent research suggests crow brains tightly pack neurons to help make them smart.",
                     "Crows are extremely intelligent. They can use tools to get what they want, like New Caledonian crows in a single South Pacific island of the same name, which shape twigs into hooks to catch grubs from rotting logs. And according to new research, crows are even smarter than we thought.",
                     "Crows and other corvids (a family of birds that includes ravens and magpies) know what they know and can ponder the content of their own minds, according to a 2020 study in Science. This is considered a cornerstone of self-awareness and shared by just a handful of animal species beside humans, such as monkeys and great apes. Crows can also use their complex brains to find creative solutions, such as dropping nuts on the road so passing cars can crack them open, for example.",
                     "But do they have true consciousness?"
@@ -63,7 +62,9 @@
             },
             {
                 "subtitle": "Crows Have Brains Packed With Neurons",
-                "subcontent": "The ability to think through a problem and work out an answer may be due to crows possessing a high number of brain cells that process information. This trait appears not only in humans, but in non-human primates, too. A study published in the Journal of Comparative Neurology in January 2022 comparing corvid brains with those of chickens, pigeons, and ostriches found that corvid brains have more tightly packed neurons—between 200 and 300 million neurons per hemisphere—enabling efficient communication between the brain cells. Crow intelligence is at least on par with some monkeys, and in fact, may be closer to that of great apes (like gorillas), according to a 2017 study published in Current Opinion in Behavioral Sciences."
+                "subcontent": [
+                    "The ability to think through a problem and work out an answer may be due to crows possessing a high number of brain cells that process information. This trait appears not only in humans, but in non-human primates, too. A study published in the Journal of Comparative Neurology in January 2022 comparing corvid brains with those of chickens, pigeons, and ostriches found that corvid brains have more tightly packed neurons—between 200 and 300 million neurons per hemisphere—enabling efficient communication between the brain cells. Crow intelligence is at least on par with some monkeys, and in fact, may be closer to that of great apes (like gorillas), according to a 2017 study published in Current Opinion in Behavioral Sciences."
+                ]
             },
             {
                 "subtitle": "Evolution Gave Crows Great Ability to Reason",
@@ -130,15 +131,21 @@
             },
             {
                 "subtitle": "Type I",
-                "subcontent": "A civilization close to the level presently attained on Earth, with energy consumption at ≈4×1019 erg/sec (4×1012 watts). A Type I civilization is usually defined as one that can harness all the energy that reaches its home planet from its parent star (for Earth, this value is around 2×1017 watts), which is about four orders of magnitude higher than the amount presently attained on Earth, with energy consumption at ≈2×1013 watts as of 2020. The astronomer Guillermo A. Lemarchand defined Type I as a level near contemporary terrestrial civilization with an energy capability equivalent to the solar insolation on Earth, between 1016 and 1017 watts."
+                "subcontent": [
+                    "A civilization close to the level presently attained on Earth, with energy consumption at ≈4×1019 erg/sec (4×1012 watts). A Type I civilization is usually defined as one that can harness all the energy that reaches its home planet from its parent star (for Earth, this value is around 2×1017 watts), which is about four orders of magnitude higher than the amount presently attained on Earth, with energy consumption at ≈2×1013 watts as of 2020. The astronomer Guillermo A. Lemarchand defined Type I as a level near contemporary terrestrial civilization with an energy capability equivalent to the solar insolation on Earth, between 1016 and 1017 watts."
+                ]
             },
             {
                 "subtitle": "Type II",
-                "subcontent": "A civilization capable of harnessing the energy radiated by its own large star—for example, by means of the successful completion of a Dyson sphere or Matrioshka brain—with energy consumption at ≈4×1033 erg/sec.Lemarchand defined civilizations of this type as being capable of using and channeling the entire radiation output of its star. The energy use would then be comparable to the luminosity of the Sun, about 4×1033 erg/sec (4×1026 watts)."
+                "subcontent": [
+                    "A civilization capable of harnessing the energy radiated by its own large star—for example, by means of the successful completion of a Dyson sphere or Matrioshka brain—with energy consumption at ≈4×1033 erg/sec.Lemarchand defined civilizations of this type as being capable of using and channeling the entire radiation output of its star. The energy use would then be comparable to the luminosity of the Sun, about 4×1033 erg/sec (4×1026 watts)."
+                ]
             },
             {
                 "subtitle": "Type III",
-                "subcontent": "A civilization in possession of energy at the scale of its own galaxy, with energy consumption at ≈4×1044 erg/sec.Lemarchand defined civilizations of this type as having access to power comparable to the luminosity of the entire Milky Way galaxy, about 4×1044 erg/sec (4×1037 watts).Kardashev believed that a Type 4 civilization was impossible, so he did not go past Type 3. However, new types (0, IV, V, VI) have been proposed."
+                "subcontent": [
+                    "A civilization in possession of energy at the scale of its own galaxy, with energy consumption at ≈4×1044 erg/sec.Lemarchand defined civilizations of this type as having access to power comparable to the luminosity of the entire Milky Way galaxy, about 4×1044 erg/sec (4×1037 watts).Kardashev believed that a Type 4 civilization was impossible, so he did not go past Type 3. However, new types (0, IV, V, VI) have been proposed."
+                ]
             }
         ]
     },
@@ -186,7 +193,9 @@
             },
             {
                 "subtitle": "Observation",
-                "subcontent": "On 11 February 2016, the LIGO Scientific Collaboration and the Virgo collaboration announced the first direct detection of gravitational waves, representing the first observation of a black hole merger. On 10 April 2019, the first direct image of a black hole and its vicinity was published, following observations made by the Event Horizon Telescope (EHT) in 2017 of the supermassive black hole in Messier 87's galactic centre. As of 2021, the nearest known body thought to be a black hole is around 1,500 light-years (460 parsecs) away. Though only a couple dozen black holes have been found so far in the Milky Way, there are thought to be hundreds of millions, most of which are solitary and do not cause emission of radiation.Therefore, they would only be detectable by gravitational lensing."
+                "subcontent": [
+                    "On 11 February 2016, the LIGO Scientific Collaboration and the Virgo collaboration announced the first direct detection of gravitational waves, representing the first observation of a black hole merger. On 10 April 2019, the first direct image of a black hole and its vicinity was published, following observations made by the Event Horizon Telescope (EHT) in 2017 of the supermassive black hole in Messier 87's galactic centre. As of 2021, the nearest known body thought to be a black hole is around 1,500 light-years (460 parsecs) away. Though only a couple dozen black holes have been found so far in the Milky Way, there are thought to be hundreds of millions, most of which are solitary and do not cause emission of radiation.Therefore, they would only be detectable by gravitational lensing."
+                ]
             },
             {
                 "subtitle": "Etymology",

@@ -23,6 +23,7 @@
 }
 
 .title {
+    width: 90%;
     font-size: 2rem;
     font-weight: bold;
     margin: 2vw 0;
@@ -33,7 +34,6 @@
     font-size: 1.8rem;
     cursor: pointer;
     transition: 0.1s;
-    margin: 0 10px;
 }
 
 .bookMark:active {
@@ -42,6 +42,11 @@
 
 .content {
     text-align: justify;
+}
+
+.Subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 @media (max-width: 320px) {

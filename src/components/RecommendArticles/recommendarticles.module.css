@@ -34,7 +34,6 @@
 .articletitle {
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
     padding: 0 5%;
@@ -44,6 +43,7 @@
     .recommendList {
         grid-template-columns: repeat(auto-fit, 280px);
     }
+
     .articleBox {
         height: 200px;
     }

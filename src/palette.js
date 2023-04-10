@@ -23,7 +23,7 @@ const colors = {
         contentBgHover: "#2d2e30",
         mainText: "#53a4ef",
         subText: "#fff",
-        contentText: "#ddd"
+        contentText: "#c5c5c5"
     }
 }
 export default function identify(mode) {

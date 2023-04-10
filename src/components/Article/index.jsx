@@ -1,5 +1,4 @@
 import styles from './article.module.css'
-// import { Link } from 'react-router-dom'
 import { useSelector, useDispatch } from "react-redux"
 import { selectMarked, setMarked } from "../../redux/bookMark"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -29,7 +28,27 @@ export default function Article({ article }) {
                         }
                     </div>
                 </div>
-                <div className={styles.content}>{article.content}</div>
+                <div className={styles.content}>
+                    {article.contentNew.map(paragraph => (
+                        <div key={`${article.id}${paragraph.subtitle}`}>
+                            {
+                                paragraph.subtitle != "" && (
+                                    <div className={styles.Subtitle}>
+                                        <br />
+                                        {paragraph.subtitle}
+                                    </div>
+                                )
+                            }
+                            {paragraph.subcontent.map(line => (
+                                <div key={`${article.id}${paragraph.subtitle}${line}`}>
+                                    <div className={styles.Subcontent}>{line}</div>
+                                    <br />
+                                </div>
+                            ))}
+                        </div>
+                    ))}
+                    {article.content}
+                </div>
             </div>
         </div>
     )
