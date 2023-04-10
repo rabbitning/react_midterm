@@ -1,24 +1,21 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { ConfigProvider } from 'antd'
 import { useSelector } from "react-redux"
 import Home from './pages/Home'
 import AuthorPage from './pages/AuthorPage'
-import { darkTheme, lightTheme } from './theme'
+import Article from './pages/Article'
 import { selectLightMode } from "./redux/colorSlice"
+import identify from './palette'
 
-function Router() {
-    const lightMode = useSelector(selectLightMode)
-    const theme = lightMode ? lightTheme : darkTheme
+export default function Router() {
+    const Mode = useSelector(selectLightMode)
+    identify(Mode)
     return (
-        <ConfigProvider theme={theme}>
-            <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='author/:authorname' element={<AuthorPage />} />
-                </Routes>
-            </BrowserRouter>
-        </ConfigProvider>
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='author/:username' element={<AuthorPage />} />
+                <Route path='article/:id' element={<Article />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
-
-export default Router;

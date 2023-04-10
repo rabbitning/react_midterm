@@ -1,10 +1,15 @@
 :root {
-    --main-color: #53a4ef;
-    --main-hover-color: #92c3f1;
-    --sub-color: #0a9f84;
-    --sub-hover-color: #1cb498;
-    --normal-color: #ddd;
-    --normal-hover-color: #e9e8e8;
+    --mainBg: #53a4ef;
+    --mainBgHover: #92c3f1;
+    --subBg: #0a9f84;
+    --subBgHover: #1cb498;
+    --normalBg: #fff;
+    --normalBgHover: #f0f0f0;
+    --contentBg: #f0f0f0;
+    --contentBgHover: #d3d3d3;
+    --mainText: #000;
+    --subText: #fff;
+    --contentText: #000;
 }
 
 html {
@@ -13,6 +18,7 @@ html {
     line-height: 1.5;
     width: 100vw;
     min-height: 100vh;
+    color: var(--contentText);
 }
 
 * {
@@ -27,20 +33,14 @@ html {
 
 body {
     margin: 0;
-    background-color: var(--normal-color);
-}
-
-.mainHover:hover {
-    background-color: var(--main-hover-color);
-}
-
-.subHover:hover {
-    background-color: var(--sub-hover-color);
+    background-color: var(--normalBg);
 }
 
 .page {
+    position: relative;
     width: 100%;
     min-height: 100vh;
+    padding: 120px 0 230px;
 }
 
 .container {
@@ -55,6 +55,7 @@ body {
     html {
         font-size: 10px;
     }
+
     .container {
         width: 100%;
     }

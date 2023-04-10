@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 1vw;
-    margin: 130px auto 0;
+    /* margin: 130px auto 0; */
 }
 
 .articleBox {
@@ -11,11 +11,11 @@
     align-items: center;
     height: 350px;
     transition: 0.2s;
-    background-color: #fff;
+    background-color: var(--contentBg);
 }
 
 .articleBox:hover {
-    background-color: var(--normal-hover-color);
+    background-color: var(--contentBgHover);
 }
 
 .articleThumbnailBox {

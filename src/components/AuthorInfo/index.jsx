@@ -1,14 +1,28 @@
 import styles from './authorinfo.module.css'
 import { Link } from 'react-router-dom'
-import authordatas from '../../json/authordatas.json'
+import articledatas from '../../json/articledatas.json'
 
-export default function AuthorInfo() {
+export default function AuthorInfo({ user }) {
+    const userArticleList = articledatas.filter(article => article.author == user.name)
     return (
         <div className='container'>
-            <div>
-                
+            <div className={styles.authorPage}>
+                <div className={styles.userInfo}>
+                    <img src={user.profile} alt="" className={styles.userProfile} />
+                    <div className={styles.userName}>{user.name}</div>
+                </div>
+                <div className={styles.userArticleList}>
+                    {userArticleList.map(article => (
+                        <Link to={`/article/${article.id}`} key={article.id} className={styles.userArticle}>
+                            <img src={`/${article.thumbnail}`} alt="" className={styles.articleThumbnail} />
+                            <div className={styles.articleBox}>
+                                <div className={styles.articleTitle}>{article.articletitle}</div>
+                                <div className={styles.articleContent}>{article.content}</div>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
             </div>
-            <div></div>
         </div>
     )
 }
