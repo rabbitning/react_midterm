@@ -31,7 +31,23 @@
         "author": "BLT",
         "thumbnail": "/images/image-2.png",
         "articletitle": "Self-healing polymers",
-        "summary": "Self-healing polymers"
+        "summary": "Self-healing polymers",
+        "contentNew": [
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            }
+        ]
     },
     {
         "id": "2",
