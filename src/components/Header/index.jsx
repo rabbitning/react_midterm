@@ -8,12 +8,11 @@ import { faCircleHalfStroke, faCircleUser } from '@fortawesome/free-solid-svg-ic
 export default function Header() {
     const lightMode = useSelector(selectLightMode);
     const dispatch = useDispatch();
-    const root = document.documentElement
     const toggleColor = () => {
         dispatch(setColorMode(!lightMode))
         {
             const colorBtn = document.querySelector(`.${styles.setColorBtn}`)
-            const rotate = lightMode ? 0 : 180;
+            const rotate = lightMode * 180;
             colorBtn.style.transform = `rotateZ(${rotate}deg)`;
         }
     }

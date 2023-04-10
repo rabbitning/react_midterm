@@ -60,4 +60,8 @@ body {
     .container {
         width: 100%;
     }
+
+    .page {
+        padding: 100px 0 150px;
+    }
 }

@@ -44,4 +44,7 @@
     .recommendList {
         grid-template-columns: repeat(auto-fit, 280px);
     }
+    .articleBox {
+        height: 200px;
+    }
 }
