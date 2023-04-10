@@ -3,6 +3,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .headerContent {
@@ -30,9 +31,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    min-width: 100px;
     height: 100%;
+    padding: 0 5%;
     transition: 0.2s;
     color: var(--mainText);
 }
@@ -72,7 +72,6 @@ header {
     display: flex;
     align-items: center;
     height: 100%;
-    background-color: var(--subBg);
 }
 
 .userAction {
@@ -83,10 +82,19 @@ header {
 }
 
 .setColorBtn {
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
     height: 100%;
     cursor: pointer;
-    background-color: var(--mainText);
+    color: var(--contentText);
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.setColorBtn:hover {
+    font-size: 1.5rem;
 }
 
 .postBtn {
@@ -95,15 +103,17 @@ header {
     height: 100%;
     padding: 0 50px;
     transition: 0.2s;
+    background-color: var(--subBg);
 }
 
 .userIcon {
     display: flex;
     align-items: center;
-    font-size: 50px;
+    font-size: 2rem;
     height: 100%;
-    padding: 0 15px;
+    padding: 0 1.2vw;
     transition: 0.2s;
+    background-color: var(--subBg);
 }
 
 .postBtn:hover,

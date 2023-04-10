@@ -1,7 +1,7 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit'
 
 const lightMode = true
-const initialState = {lightMode}
+const initialState = { lightMode }
 const colorSlice = createSlice({
     name: 'color',
     initialState,

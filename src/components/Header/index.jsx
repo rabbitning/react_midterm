@@ -1,7 +1,9 @@
 import styles from './header.module.css'
 import { Link } from 'react-router-dom'
-import { useSelector, useDispatch } from "react-redux";
-import { selectLightMode, setColorMode } from "../../redux/colorSlice";
+import { useSelector, useDispatch } from "react-redux"
+import { selectLightMode, setColorMode } from "../../redux/colorSlice"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleHalfStroke, faCircleUser } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
     const lightMode = useSelector(selectLightMode);
@@ -9,12 +11,17 @@ export default function Header() {
     const root = document.documentElement
     const toggleColor = () => {
         dispatch(setColorMode(!lightMode))
+        {
+            const colorBtn = document.querySelector(`.${styles.setColorBtn}`)
+            const rotate = lightMode ? 0 : 180;
+            colorBtn.style.transform = `rotateZ(${rotate}deg)`;
+        }
     }
     return (
         <header>
             <div className={styles.headerContent}>
                 <div className={styles.navigator}>
-                    <Link to='/' className={`${styles.navHomeBtn} ${styles.navItem}`}>Home</Link>
+                    <Link to='/' className={`${styles.navHomeBtn} ${styles.navItem}`}>KnowEdge</Link>
                     <Link to='/' className={styles.navItem}>genre</Link>
                     <Link to='/' className={styles.navItem}>contact</Link>
                 </div>
@@ -23,25 +30,14 @@ export default function Header() {
                 </div>
                 <div className={styles.userCorner}>
                     <div onClick={toggleColor} className={styles.setColorBtn}>
-                        {
-                            // lightMode ? (
-                            //     <div className={styles.setColorBtn}>
-
-                            //     </div>
-                            // ) : (
-                            //     <div className={styles.setColorBtn}>
-
-                            //     </div>
-                            // )
-                        }
+                        <FontAwesomeIcon icon={faCircleHalfStroke} />
                     </div>
                     <div className={styles.userAction}>
                         <Link to='/' className={styles.postBtn}>post</Link>
                         <Link to='/author/McDonald' className={styles.userIcon}>
-                            <i className='fas fa-user-circle'></i>
+                            <FontAwesomeIcon icon={faCircleUser} />
                         </Link>
                     </div>
-
                 </div>
             </div>
         </header>

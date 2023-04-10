@@ -6,29 +6,27 @@
 }
 
 .userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30%;
     height: 100%;
 }
 
 .userProfile {
-    width: 80%;
-    height: auto;
+    height: 30vw;
 }
 
-
-
-/* .userName {
-
-} */
-
-/* .vr {
-    background-color: var(--contentText);
-    width: 1px;
-    height: 99%;
-} */
+.userName {
+    font-weight: bold;
+    padding: 1vw;
+}
 
 .userArticleList {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
     width: 60%;
 }
 
@@ -44,18 +42,43 @@
 .userArticle {
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 10vw;
+    background-color: var(--contentBg);
 }
 
-.articleThumbnail {}
+.userArticle:hover {
+    background-color: var(--contentBgHover);
+}
+
+.articleThumbnailBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--mainText);
+}
+
+.articleThumbnail {
+    width: 10vw;
+}
 
 .articleBox {
+    width: 80%;
     height: 100%;
+    padding: 1vw;
 }
 
-.articleTitle {}
+.articleTitle {
+    height: 50%;
+    font-weight: bold;
+}
 
 .articleContent {
-    height: 60%;
+    height: 50%;
     overflow: hidden;
+}
+
+@media (max-width: 320px) {
+    .authorPage {
+        flex-direction: column;
+        align-items: center;
+    }
 }

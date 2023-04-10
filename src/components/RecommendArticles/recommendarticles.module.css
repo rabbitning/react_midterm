@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 1vw;
-    /* margin: 130px auto 0; */
 }
 
 .articleBox {
@@ -16,6 +15,7 @@
 
 .articleBox:hover {
     background-color: var(--contentBgHover);
+    box-shadow: 5px 5px 8px #111;
 }
 
 .articleThumbnailBox {
@@ -28,7 +28,7 @@
 }
 
 .articleThumbnail {
-    max-width: 100%;
+    width: 100%;
 }
 
 .articletitle {

@@ -9,7 +9,7 @@ export default function RecommendArticles() {
                 {articledatas.map(articledata => (
                     <Link to={`/article/${articledata.id}`} key={articledata.id} className={styles.articleBox}>
                         <div className={styles.articleThumbnailBox}>
-                            <img src={`/${articledata.thumbnail}`} alt="" className={styles.articleThumbnail} />
+                            <img src={articledata.thumbnail} alt="" className={styles.articleThumbnail} />
                         </div>
                         <div className={styles.articletitle}>{articledata.articletitle}</div>
                     </Link>

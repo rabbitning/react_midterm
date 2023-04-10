@@ -14,7 +14,9 @@ export default function AuthorInfo({ user }) {
                 <div className={styles.userArticleList}>
                     {userArticleList.map(article => (
                         <Link to={`/article/${article.id}`} key={article.id} className={styles.userArticle}>
-                            <img src={`/${article.thumbnail}`} alt="" className={styles.articleThumbnail} />
+                            <div className={styles.articleThumbnailBox}>
+                                <img src={article.thumbnail} alt="" className={styles.articleThumbnail} />
+                            </div>
                             <div className={styles.articleBox}>
                                 <div className={styles.articleTitle}>{article.articletitle}</div>
                                 <div className={styles.articleContent}>{article.content}</div>

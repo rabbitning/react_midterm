@@ -3,10 +3,10 @@
     --mainBgHover: #92c3f1;
     --subBg: #0a9f84;
     --subBgHover: #1cb498;
-    --normalBg: #fff;
-    --normalBgHover: #f0f0f0;
-    --contentBg: #f0f0f0;
-    --contentBgHover: #d3d3d3;
+    --normalBg: #f0f0f0;
+    --normalBgHover: #d3d3d3;
+    --contentBg: #fff;
+    --contentBgHover: #f0f0f0;
     --mainText: #000;
     --subText: #fff;
     --contentText: #000;
@@ -16,7 +16,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     line-height: 1.5;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     color: var(--contentText);
 }
@@ -27,9 +27,9 @@ html {
     color: inherit;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 body {
     margin: 0;

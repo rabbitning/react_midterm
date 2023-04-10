@@ -6,9 +6,7 @@ import authordatas from '../json/authordatas.json'
 
 export default function AuthorPage() {
     const { username } = useParams()
-    const user = authordatas.find(
-        x => x.name == username
-    )
+    const user = authordatas.find(x => x.name == username)
     return (
         <div className='page'>
             <Header />
