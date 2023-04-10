@@ -36,7 +36,7 @@ export default function Header() {
                     </div>
                     <div className={styles.userAction}>
                         <Link to='/' className={`${styles.postBtn} subHover`}>post</Link>
-                        <Link to='author' className={`${styles.userIcon} subHover`}>
+                        <Link to='author/McDonald' className={`${styles.userIcon} subHover`}>
                             <i className='fas fa-user-circle'></i>
                         </Link>
                     </div>

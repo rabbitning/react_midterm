@@ -14,7 +14,7 @@ function Router() {
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<Home />} />
-                    <Route path='author' element={<AuthorPage />} />
+                    <Route path='author/:authorname' element={<AuthorPage />} />
                 </Routes>
             </BrowserRouter>
         </ConfigProvider>
