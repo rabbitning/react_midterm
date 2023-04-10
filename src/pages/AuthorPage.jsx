@@ -1,12 +1,11 @@
 import Header from "../components/Header"
-import RecommendArticles from "../components/RecommendArticles"
 import Footer from "../components/Footer"
 
-export default function Home() {
+export default function AuthorPage() {
     return (
         <div className='page'>
             <Header />
-            <RecommendArticles />
+            
             <Footer />
         </div>
     )

@@ -12,8 +12,8 @@ const colorSlice = createSlice({
     }
 })
 
-export const selectLightMode = (state) => state.color.lightMode;
+export const selectLightMode = (state) => state.color.lightMode
 
-export const { setColorMode } = colorSlice.actions;
+export const { setColorMode } = colorSlice.actions
 
-export default colorSlice.reducer;
+export default colorSlice.reducer

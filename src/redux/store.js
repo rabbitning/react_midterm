@@ -1,11 +1,22 @@
-import { configureStore } from '@reduxjs/toolkit';
-import colorReducer from './colorSlice';
+import { configureStore } from '@reduxjs/toolkit'
+import storage from 'redux-persist/lib/storage'
+import { persistReducer, persistStore } from 'redux-persist'
+import thunk from 'redux-thunk'
+import colorReducer from './colorSlice'
 
-const store = configureStore({
+const persistConfig = {
+    key: 'shoppingCart',
+    storage
+}
+
+const persistedColorReducer = persistReducer(persistConfig, colorReducer)
+
+export const store = configureStore({
     reducer: {
-        color: colorReducer,
+        color: persistedColorReducer
     },
-    devTools: process.env.NODE_ENV !== 'production'
+    devTools: process.env.NODE_ENV !== 'production',
+    middleware: [thunk]
 })
 
-export default store;
+export const persistor = persistStore(store)

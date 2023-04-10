@@ -39,3 +39,9 @@
     width: 100%;
     padding: 0 5%;
 }
+
+@media (max-width: 320px) {
+    .recommendList {
+        grid-template-columns: repeat(auto-fit, 280px);
+    }
+}
