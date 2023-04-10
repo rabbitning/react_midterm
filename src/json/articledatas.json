@@ -54,27 +54,91 @@
         "author": "McDonald",
         "thumbnail": "/images/image-3.png",
         "articletitle": "Crows Are Self-Aware Just Like Humans, And They May Be as Smart as Gorillas",
-        "summary": "Crows Are Self-Aware Just Like Humans, And They May Be as Smart as Gorillas"
+        "summary": "Crows Are Self-Aware Just Like Humans, And They May Be as Smart as Gorillas",
+        "contentNew": [
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            }
+        ]
     },
     {
         "id": "3",
         "author": "Malenia",
         "thumbnail": "/images/image-4.png",
         "articletitle": "Teleportation Is A Real Thing, Here Is How It Work",
-        "summary": "Teleportation Is A Real Thing, Here Is How It Work"
+        "summary": "Teleportation Is A Real Thing, Here Is How It Work",
+        "contentNew": [
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            }
+        ]
     },
     {
         "id": "4",
         "author": "Malenia",
         "thumbnail": "/images/image-5.png",
         "articletitle": "Kardashev scale : A Method Of Measuring Civilization Level",
-        "summary": "Kardashev scale : A Method Of Measuring Civilization Level"
+        "summary": "Kardashev scale : A Method Of Measuring Civilization Level",
+        "contentNew": [
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            }
+        ]
     },
     {
         "id": "5",
         "author": "Malenia",
         "thumbnail": "/images/image-6.png",
         "articletitle": "The Vision Effect Of Black Hole : Why Does It Looks Like This?",
-        "summary": "The Vision Effect Of Black Hole : Why Does It Looks Like This?"
+        "summary": "The Vision Effect Of Black Hole : Why Does It Looks Like This?",
+        "contentNew": [
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "subtitle": "",
+                "subcontent": [
+                    "",
+                    ""
+                ]
+            }
+        ]
     }
 ]
